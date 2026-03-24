@@ -129,6 +129,8 @@
      .question {
          width: 100%;
          font-size: 25px;
+         background-color: black;
+         color: white;
      }
 
      .main-option {
@@ -140,17 +142,13 @@
      }
 
      .opt {
-         background-color: black;
-         color: white;
+         background-color:white;
+         color: black;
          width: 84%;
      }
 
      .opt:hover {
-         transform: scale(1.04);
-         transition: 0.4s;
-         background-color: rgb(232, 230, 230);
-         color: black;
-
+         transform: scale(1);
      }
 
      #text {
