@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div class="border">
+        <p class="simple">Simple Quiz</p>
+        <div id="main" onclick="load()">
+            <div class="kk">
+                <div class="question" id="question-id">Question goes here...</div>
+            </div>
+            <div class="main-option">
+                <div class="opt" id="option1" onclick="checkanswer(1)">A. jbviwfh</div>
+                <div class="opt" id="option2" onclick="checkanswer(2)">B. etnouwt</div>
+            </div>
+            <div class="main-option">
+                <div class="opt" id="option3" onclick="checkanswer(3)">C. jbviwfh</div>
+                <div class="opt" id="option4" onclick="checkanswer(4)">D. etnouwt</div>
+            </div>
+            <button class="next" onclick="next()">next</button>
+        </div>
+        <p id="text" class="hide"></p>
+        <div class="btn" id="btn-id">
+            <button class="again" id="again-btn" onclick="again()">Start again</button>
+        </div>
+    </div>
+    <script src="script.js">
+        
+    </script>
+</body>
+
+</html>

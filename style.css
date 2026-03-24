@@ -1,0 +1,126 @@
+ body {
+            background-color: #A739C5;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .border {
+            width: 750px;
+            /* border: 1px solid black; */
+        }
+
+        .kk {
+            display: flex;
+            justify-content: center;
+        }
+
+        .question {
+            background-color: white;
+            width: 70%;
+            padding: 15px 10px;
+            font-weight: 600;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            border-radius: 40px;
+            font-size: 30px;
+            margin-bottom: 65px;
+            box-shadow: 8px 10px 20px black;
+
+        }
+
+        .main-option {
+            display: flex;
+            gap: 40px;
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 45px;
+        }
+
+        .opt {
+            background-color: white;
+            width: 100%;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-align: center;
+            box-shadow: 8px 10px 20px black;
+            cursor: pointer;
+            
+        }
+        
+        .opt:hover {
+            transform: scale(1.04);
+            transition: 0.4s;
+            background-color: rgb(233, 232, 232);
+
+        }
+        
+        .ok {
+            display: none;
+        }
+        
+        #text {
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: white;
+            border-radius: 20px;
+            font-weight: 700;
+            margin: 0 auto;
+            width: 50%;
+            
+        }
+
+        .next {
+            display: none;
+        }
+
+        .again {
+            display: none;
+        }
+
+        .ok1 {
+            display: block;
+            padding: 10px 25px;
+            font-size: 26px;
+            font-weight: 700;
+            background-color: #FA125E;
+            color: black;
+            border: none;
+            border-radius: 7px;
+            box-shadow: 10px 10px 20px rgb(148, 146, 146);
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+            cursor: pointer;
+        }
+
+        .ok1:hover {
+            background-color:#d61857;
+            color: black;
+              transform: scale(1.04);
+            transition: 0.4s;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+
+        }
+
+        .simple {
+            font-size: 50px;
+            font-weight: 600;
+            color: white;
+            text-align: center;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+            margin-top: -20px;
+        }
+
+        .show {
+            display: block;
+        }
+        .hide{
+            display: none !important;
+        }
